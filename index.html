@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+            <img src="img/image.png" alt="logo" class ="logo">
+        <span class="name">
+          Название сайта
+        </span>
+    </div>
+</header>
+
+<nav class="menu">
+    <div class="wrapper">
+        <a href="https://vk.com" class="navigation">Ссылка на ВКонтакте</a>
+        <a href="https://www.youtube.com" class="navigation">Ссылка на youtube</a>
+        <a href="https://www.twitch.tv" class="navigation">Ссылка на twitch</a>
+        <a href="https://www.google.com.com" class="navigation"> Ссылка на google</a>
+    </div>
+</nav>
+
+<main>
+    <div class="wrapper">
+        <ol class ="list">
+            <li ><a href="http://example.com">first</a></li>
+            <li ><a href="https://example.com">second</a></li>
+            <li ><a href="ftp://test.com/img/picture1">third</a></li>
+            <li ><a href="ftp://login:pass@test.com:21/img/picture">fourth</a></li>
+            <li ><a href="http://example.com/inedx.html#anchor">fifth</a></li>
+            <li ><a href="#anchor">sixth</a></li>
+            <li ><a href="http://example.com?product=phole&color=gold">seventh</a></li>
+            <li >  <ol >
+                <li> <a href="http://exmaple.com" title ="main page" >  eighth </a> </li>
+            </ol>
+            </li>
+            <li ><a> ninth</a></li>
+            <li ><a href="#">tenth</a></li>
+            <li ><a rel="nofollow" href="">eleventh</a></li>
+            <li ><a href="" rel="noindex"> </a>12-th</li>
+            <li >
+                <p>random <a href="#">link</a> 13-th </p>
+            </li>
+            <li ><a href=""><img src="img/picture.jpg" alt="picture" ></a></li>
+            <li >
+                <map name="Name">
+                    <area alt="picture" shape="rect" coords="0,0,100,100" href="#">
+                    <area alt="picture" shape="circle" coords="200,200,100" href="#">
+                </map>
+                <img usemap="#Name" src="img/1111.jpg" alt="picture">
+            </li>
+            <li ><a href="./page.html">16-th</a></li>
+            <li ><a href="/about/page.html">17-th</a></li>
+            <li ><a href="../page.html">18-th</a></li>
+            <li ><a href="../../page.html">19-th</a></li>
+            <li ><a href="/index.html">20-th</a></li>
+            <li><a href="/pages/page.html">21-th</a></li>
+        </ol>
+
+<form action="URL" class="form">
+    <div>
+        <label for="name"> <strong> Name </strong></label>
+        <input type="text" id="name" name="user_name">
+
+        <label for="mail"> <strong> E-mail</strong></label>
+        <input type="email" id="mail" name="user_mail">
+
+        <label for="date"> <strong> Birthday </strong></label>
+        <input type="date" id="date" name="date"/>
+    </div>
+
+    <div>
+        <input type="radio" id="op1"
+               name="contact" value="male">
+        <label for="op1">Male</label>
+        <input type="radio" id="op2"
+               name="contact" value="female">
+        <label for="op2">Female</label>
+    </div>
+
+    <div>
+        <input type="radio" id="op21"
+               name="limbs" value="1">
+        <label for="op21"> one limb</label>
+        <input type="radio" id="op22"
+               name="limbs" value="2">
+        <label for="op22">two limbs</label>
+        <input type="radio" id="op23"
+               name="limbs" value="3">
+        <label for="op23">three limbs </label>
+        <input type="radio" id="op24"
+               name="limbs" value="4">
+        <label for="op24">four limbs</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="immortal" name="immortal" value="fireproof">
+        <label for="immortal">immortal</label>
+        <input type="checkbox" id="disembodied" name="disembodied" value="disembodied">
+        <label for="disembodied">disembodied</label>
+        <input type="checkbox" id="levitation" name="levitation" value="levitation">
+        <label for="levitation">levitation</label>
+    </div>
+
+    <p><strong>biography</strong></p>
+    <p><textarea name="biography"></textarea></p>
+
+    <input type="checkbox" id="contractID" name="contract" value="contract" required>
+    <label for="contractID">I have read the contract</label>
+
+    <input type="submit" value="submit">
+</form>
+<table border="1" class ="table">
+    <tr>
+        <th > Имя </th>
+        <th> Фамилия</th>
+        <th> Отчество</th>
+
+    </tr>
+
+    <tr class="odd">
+        <td colspan="2"> Илья Фенько</td>
+        <!--<td> Фенько</td> -->
+        <td> Олегович </td>
+    </tr>
+
+    <tr >
+        <td colspan="2"> Андрей Михайлович</td>
+        <td> Соколов </td>
+        <!-- <td> Михайлович </td> -->
+    </tr>
+
+    <tr class="odd">
+        <td colspan="2" > Ольга Фенько </td>
+        <!-- <td> Фенько </td> -->
+        <td> Олеговна </td>
+    </tr>
+
+</table>
+    </div>
+</main>
+
+<footer>
+    <div class="wrapper">
+        <span> ПОДВАЛ </span>
+    </div>
+</footer>
+</body>
+</html>
